@@ -84,12 +84,8 @@ export default function CustomPaginationActionsTable(props) {
     const [page, setPage] = React.useState(0);
     const [rowsPerPage, setRowsPerPage] = React.useState(5);
     const [rows, setRows] = React.useState([])
-    //const [rows, setRowsData] = React.useState([]);
-
     React.useEffect(() => {
         const getLocalItem = localStorage.getItem("user");
-        // console.log("Get local", getLocalItem)
-        // console.log("Props data", props.userListData)
         if (!getLocalItem) {
             return;
         }

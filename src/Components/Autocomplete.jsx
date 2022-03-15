@@ -8,9 +8,6 @@ import CustomPaginationActionsTable from './GetUserDetails'
 export default function SearchAuto(props) {
     const [userData, setUserData] = useState();
     const [value, setValue] = useState();
-
-
-
     useEffect(() => {
         const getLocalItem = localStorage.getItem("user");
 
