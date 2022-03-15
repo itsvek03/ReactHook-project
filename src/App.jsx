@@ -1,5 +1,3 @@
-
-import CustomPaginationActionsTable from './Components/GetUserDetails'
 import UserList from './Components/UserList'
 
 function App() {
